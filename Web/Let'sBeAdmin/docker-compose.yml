@@ -1,0 +1,18 @@
+services:
+  app:
+    image: lets-be-admin:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lets-be-admin
+    restart: always
+    ports:
+      - "62233:62233"
+    environment:
+      - PORT=62233
+      - ENVIRONMENT=production
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:62233"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

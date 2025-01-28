@@ -1,0 +1,27 @@
+name: Hãy dạo chơi và thành admin
+author: Mèo Bếu
+category: Web
+description: |-
+  Một thử thách đơn giản, trở thành Admin của trang web và bạn có thể làm bất cứ điều gì bạn muốn.
+  Chúc mọi người vượt qua thử thách hehehe
+  
+  Author: Mèo Bếu
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+connection_info: https://example.com:62233/
+
+attempts: 10
+
+flags:
+  - FIA{you_cracked_jwt_and_captured_the_request}
+
+tags:
+  - Web
+  - easy
+
+version: '0.1'
