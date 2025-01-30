@@ -1,0 +1,29 @@
+name: Chào mừng tới lớp FRS
+author: Jerryyy
+category: forensics
+description: |-
+  Có một sự  cố đã xảy ra với máy của tôi, dường như có một user mới được tạo trên máy, may thay đã có traffic của máy, hãy giúp Jerryyy thầy đù tìm ra cái gì đang xảy ra trên máy nhé.
+  
+  P/s: Jerryyy thầy đù không biết gì cả, chỉ biết đọc traffic thôi.
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{https://www.youtube.com/watch?v=bc0KhhjJP98}
+
+files:
+- dist/evidence.pcapng
+
+tags:
+  - forensics
+  - hard
+
+version: '0.1'

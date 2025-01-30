@@ -1,0 +1,15 @@
+track/0z1o5L7HJx562xZSATcIpY?si=
+
+
+
+
+
+
+
+
+
+
+
+______________________________________________________________________________
+next chall: privilege escalation with i"cron"man and find a way to read the file at /home/eagle/f1nal.txt.
+

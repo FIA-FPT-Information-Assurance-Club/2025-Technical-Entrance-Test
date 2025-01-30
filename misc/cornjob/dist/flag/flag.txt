@@ -1,0 +1,5 @@
+FIA{https://open.spotify.com/track/0z1o5L7HJx562xZSATcIpY?si=7a8289ce8d5a4597}
+
+p@rt1.txt: FIA{https://open.spotify.com/
+s3cond.txt: track/0z1o5L7HJx562xZSATcIpY?si=
+f1nal.txt: 7a8289ce8d5a4597}

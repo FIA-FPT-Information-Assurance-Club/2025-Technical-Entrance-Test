@@ -1,0 +1,26 @@
+name: Cái gì cũng là network
+author: Jerryyy
+category: forensics
+description: |-
+  Thật sự, tất cả đều có thể capture được sao =))) ?
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{https://www.youtube.com/watch??v=NHEst6ZzlMk}
+files:
+- dist/capture.pcapng
+
+tags:
+  - forensics
+  - medium
+
+version: '0.1'

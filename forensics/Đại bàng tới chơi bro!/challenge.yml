@@ -1,0 +1,27 @@
+name: Đại bàng tới chơi bro !
+author: _SawG23
+category: forensics
+description: |-
+    https://www.youtube.com/shorts/GkvGfeTyo98
+  
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+- FIA{Y0u_h@ve_fOund_th3_treasure_of_Eagleeeee}
+
+files:
+- dist/chall.wav
+
+tags:
+  - forensics
+  - easy
+
+version: '0.1'

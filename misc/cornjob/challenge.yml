@@ -1,0 +1,28 @@
+name: 🌽 job
+author: _SawG23
+category: misc
+description: |-
+  Here is a basic Linux knowledge challenge 🤥 , hope you enjoy it.
+  
+  Note: The flag has been divided into 3 parts. 
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{https://open.spotify.com/track/0z1o5L7HJx562xZSATcIpY?si=7a8289ce8d5a4597}
+
+connection_info: ssh shiba@.... -p 
+
+tags:
+  - misc
+  - Easy
+
+version: '0.1'
