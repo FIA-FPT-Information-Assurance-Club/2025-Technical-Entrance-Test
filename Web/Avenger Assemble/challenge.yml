@@ -2,7 +2,7 @@ name: Scavenger Hunt
 author: B30s
 category: Web
 description: |-
-  You know what to do.
+  Inspect the web
 
   Visit the website [here](http://{{ IP }}:8386)
   
