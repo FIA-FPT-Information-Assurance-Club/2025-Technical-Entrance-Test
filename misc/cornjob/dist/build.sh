@@ -1,3 +1,3 @@
-docker rm -f linuxchall
-docker build -t linuxchall . && \
-docker run --hostname fia --name=linuxchall --rm -p 3979:3979 -it linuxchall
+docker rm -f cornjob
+docker build -t cornjob . && \
+docker run --hostname fia --name=cornjob --rm -p 3979:3979 -it cornjob
