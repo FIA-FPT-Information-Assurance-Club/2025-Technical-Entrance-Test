@@ -1,0 +1,30 @@
+name: Where am i
+author: B30s
+category: Misc
+description: |-
+  Do you remember the person Truong My Lan whom I introduced in the last network training day, Find her and keep finding. 
+
+  NOTE: This is not gonna be the same as the last time you did. When you find her, you will have two things to do.
+
+  NOTE_2: Use What3words for the Part 1 and Part 2, remeber to find where it was taken
+
+  Flag Format: FIA{British_Virgin_Islands_metropolitan.querying.pianists-Antigua_and_Barbuda_expand_physical_section}
+
+  Author: B30s
+value: 428
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+attempts: 30
+
+flags:
+- FIA{Saint_Vincent_and_the_Grenadines_cope_joints_refills-Cyprus_package_novel_latest}
+
+tags:
+- Easy
+
+version: '0.1'
