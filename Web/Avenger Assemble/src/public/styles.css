@@ -1,0 +1,101 @@
+
+/* p5=4pp5_*/
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #000000;
+    overflow-x: hidden;
+    color: #00FF7F;
+    position: relative;
+}
+
+/* Matrix Canvas */
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* Text Shadow for Neon Glow */
+h1, h2, p, a, button {
+    text-shadow: 0 0 5px #00FF7F;
+}
+
+/* Emerald Text Color */
+.text-emerald {
+    color: #00FF7F !important;
+}
+
+/* Glowing Button */
+.btn-glow {
+    background-color: #000000;
+    border: 1px solid #00FF7F;
+    color: #00FF7F;
+    box-shadow: 0 0 10px #00FF7F;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 20px #00FF7F;
+    color: #FFFFFF;
+}
+
+/* Hide Overflow for Sections */
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Position Content Above Matrix */
+.container.position-relative.z-index-1 {
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+/* Custom Cursor */
+body, a, button {
+    cursor: url('cursor.cur'), auto;
+}
+
+/* Optional: Circuit Board Background Overlay */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('circuit-board.png') repeat;
+    opacity: 0.02;
+    z-index: -1;
+}
+
+/* Additional User Requested Styles */
+.flag {
+    font-weight: bold;
+    color: #28a745;
+}
+
+#startButton {
+    transition: transform 0.3s ease;
+}
+
+#startButton:hover {
+    transform: scale(1.05);
+}
+
