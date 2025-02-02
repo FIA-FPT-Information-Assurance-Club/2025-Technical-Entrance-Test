@@ -1,0 +1,26 @@
+name: Gambler
+author: Bory
+category: reverse
+description: |-
+  Beat me boi
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{G4mbl3_Lun4r_N3w_Ye4r_1s_n0t_3n0ugh}
+files:
+- dist/GamblingGuess.class
+
+tags:
+  - reverse
+  - baby
+
+version: '0.1'

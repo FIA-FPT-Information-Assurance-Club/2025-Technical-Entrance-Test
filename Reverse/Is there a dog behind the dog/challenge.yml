@@ -1,0 +1,26 @@
+name: Is there a dog behind the dog
+author: Bory
+category: reverse
+description: |-
+  The dog is not behind the dog, it is not even the dog
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{Y455_Th3_Doge_1s_b3hind_th3_Dog}
+files:
+- dist/Dog.exe
+
+tags:
+  - reverse
+  - medium
+
+version: '0.1'
