@@ -1,0 +1,25 @@
+name: Baby Penguin
+author: Kahang
+category: Misc
+description: |-
+  Take your first steps in the Linux terminal! Use basic commands to explore and solve simple tasks like a curious baby penguin.
+  (Download the file and run it on your own Linux machine to start)
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+connection_info: Null
+
+attempts: 5
+
+flags:
+  - FIA{E45y_l1nux_c0mm4nd_f0r_b3g1nn3r}
+
+tags:
+  - Misc
+  - easy
+
+version: '0.1'
