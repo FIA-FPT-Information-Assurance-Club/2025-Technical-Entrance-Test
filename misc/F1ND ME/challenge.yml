@@ -6,9 +6,12 @@ description: |-
 
   NOTE: This is not gonna be the same as the last time you did. When you find her, you will have two things to do.
 
-  NOTE_2: Use What3words for the Part 1 and Part 2, remember to find where it was taken
+  NOTE 2: Use What3words for the Part 1 and Part 2, remember to find where it was taken
 
-  Flag Format: FIA{British_Virgin_Islands_metropolitan_querying_pianists-Antigua_and_Barbuda_expand_physical_section}
+  NOTE 3: You must find the location where the image was taken, and make sure that you follow the format below
+
+  Flag Format: FIA{Place_1_word1_word2_word3-place_2_word1_word2_word3}
+  Example: FIA{British_Virgin_Islands_metropolitan_querying_pianists-Antigua_and_Barbuda_expand_physical_section}
 
   Author: B30s
 value: 500
