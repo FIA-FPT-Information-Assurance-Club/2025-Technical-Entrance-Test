@@ -1,0 +1,64 @@
+/* Tổng quan */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #333;
+}
+
+/* Bảng hiển thị file */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Ô tiêu đề */
+th {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+}
+
+/* Ô dữ liệu */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover trên hàng */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Link trong bảng */
+table a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Hiển thị thư mục */
+.folder {
+    color: #28a745;
+}
+
+.hidden-folder {
+    color: #d9534f;
+    font-style: italic;
+}

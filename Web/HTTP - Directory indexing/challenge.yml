@@ -1,0 +1,19 @@
+name: Hidden Treasures
+
+author: lognpm
+
+category: Web
+
+description: 
+- Looks like you found a restricted area! But... is this really what you're looking for? ;)
+
+flags:
+- FIA{D1rect0ry_L1sting_3xp0sed}
+
+tags:
+- Very Easy
+
+hints:
+- Have you checked every corner?
+
+version: '0.1'

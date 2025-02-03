@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Parent directory/",
+        "size": "-",
+        "date": "-",
+        "path": "../"
+    },
+    {
+        "name": "admin",
+        "size": "15.3 MB",
+        "date": "2024-Mar-21 08:45",
+        "path": "pass.html"
+    },
+    {
+        "name": "flag",
+        "size": "5.2 MB",
+        "date": "2025-Feb-1 15:22",
+        "path": "flag.txt"
+    }
+]
