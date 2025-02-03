@@ -1,0 +1,31 @@
+name: H45HY B1R7HD4Y T0 V
+author: laby
+category: crypto
+description: |-
+  I forgot to include the flag while making this challenge... TvT
+
+  Luckily, we are still open to receiving happy birthday wishes. But each message is double-checked with the hash value.
+
+  Is there a way to send my flag?
+  
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{find_4_s3cvre_h4sh_fvnct10n_nex7_7im3}
+
+files:
+  - dist/chall.py
+
+tags:
+  - crypto
+  - medium
+
+version: '0.1'
