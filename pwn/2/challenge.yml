@@ -1,0 +1,26 @@
+name: We Need You!!
+author: u53rr007
+category: Pwn
+description: |-
+  I heard the FIA club is open for registration. Hurry!! Fill in their form for joining.
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+connection_info: nc ######################!!!!!!!!!!!!
+
+attempts: 10
+
+flags:
+- FIA{0V3r_F10W_1S_34SY}
+
+files:
+- dist/pwntest2.zip
+tags:
+- Insane
+
+
+version: '0.1'
