@@ -1,0 +1,28 @@
+name: Crack RSA Theorem
+author: laby
+category: crypto
+description: |-
+  Can you break this RSA challenge with a CeRTain theorem?
+  
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{175_d4n63r0u5_t0_g0_4l0n3?_t4k3_CRT}
+
+files:
+  - dist/chall.py
+  - dist/output.txt
+
+tags:
+  - crypto
+  - easy
+
+version: '0.1'
