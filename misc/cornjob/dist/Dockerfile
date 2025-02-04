@@ -66,7 +66,10 @@ RUN for i in $(seq 1 100); do \
 
 
 RUN find / -type d -not -path "/tmp" -exec setfacl -m u:shiba:r-x {} + 2>/dev/null
+RUN find / -type d -not -path "/tmp" -exec setfacl -m u:eagle:r-x {} + 2>/dev/null
+
 RUN chmod 555 /home/shiba
+RUN chmod 555 /home/eagle
 RUN chmod 777 /var/radiohead/nirvana/muse/
 
 RUN echo '*/3 * * * * root rm -rf /tmp/* &> /dev/null' > /etc/cron.d/clean_tmp && \
