@@ -65,11 +65,14 @@ RUN for i in $(seq 1 100); do \
 
 
 
-RUN find / -type d -not -path "/tmp" -exec setfacl -m u:shiba:r-x {} + 2>/dev/null && \
+RUN mkdir -p /var/radiohead/nirvana/muse/ && \
+    find / -type d -not -path "/tmp" -exec setfacl -m u:shiba:r-x {} + 2>/dev/null || true && \
     setfacl -m u:shiba:rwx /var/radiohead/nirvana/muse/
 
-RUN find / -type d -not -path "/tmp" -exec setfacl -m u:eagle:r-x {} + 2>/dev/null && \
+RUN mkdir -p /var/radiohead/nirvana/muse/ && \
+    find / -type d -not -path "/tmp" -exec setfacl -m u:eagle:r-x {} + 2>/dev/null || true && \
     setfacl -m u:eagle:rwx /var/radiohead/nirvana/muse/
+
 
 
 RUN chmod 555 /home/shiba
