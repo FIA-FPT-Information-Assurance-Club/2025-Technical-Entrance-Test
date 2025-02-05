@@ -52,14 +52,14 @@ RUN for i in $(seq 1 100); do \
         touch /var/s3cond_$i.txt /opt/s3cond_$i.txt /boot/s3cond_$i.txt \
               /root/s3cond_$i.txt /tmp/s3cond_$i.txt /usr/local/s3cond_$i.txt \
               /mnt/s3cond_$i.txt /lib/s3cond_$i.txt /srv/s3cond_$i.txt \
-              /etc/s3cond_$i.txt /etc/s/s3cond_$i.txt /etc/s/e/s3cond_$i.txt \
+              /etc/s3cond_$i.txt /etc/s/s3cond_$i.txt /etc/s/e/s3cond_$i.txt /etc/s/e/c/s3cond_$i.txt \ 
               /etc/s/e/c/r/s3cond_$i.txt /etc/s/e/c/r/e/s3cond_$i.txt \
               /etc/s/e/c/r/e/t/s3cond_$i.txt; \
     done && \
     chmod 444 /var/s3cond_*.txt /opt/s3cond_*.txt /boot/s3cond_*.txt \
               /root/s3cond_*.txt /tmp/s3cond_*.txt /usr/local/s3cond_*.txt \
               /mnt/s3cond_*.txt /lib/s3cond_*.txt /srv/s3cond_*.txt \
-              /etc/s3cond_*.txt /etc/s/s3cond_*.txt /etc/s/e/s3cond_*.txt \
+              /etc/s3cond_*.txt /etc/s/s3cond_*.txt /etc/s/e/s3cond_*.txt /etc/s/e/c/s3cond_$i.txt \
               /etc/s/e/c/r/s3cond_*.txt /etc/s/e/c/r/e/s3cond_*.txt \
               /etc/s/e/c/r/e/t/s3cond_*.txt
 
