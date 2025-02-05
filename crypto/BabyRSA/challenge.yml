@@ -1,0 +1,29 @@
+name: BabyRSA
+author: RandomTeuz
+category: crypto
+description: |-
+  Everything is given.
+  
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{Wub_Fdhvdu_Xqwlo_Fruuhfw_Iodj_irupdw}
+
+files:
+  - dist/chall.py
+  - dist/ciphertext.txt
+  - dist/private_key.pem
+
+tags:
+  - crypto
+  - easy
+
+version: '0.1'
