@@ -49,9 +49,7 @@ for i in *; do
               "${sigmaboi:23:1}" == "O" && \
               "${sigmaboi:42:1}" == "'" ]]; then
             ./$i
-            cd ..
-            rm -rf /var/radiohead/nirvana/muse/$neem
         fi
     fi
 done
-rm -rf /var/radiohead/nirvana/muse/$neem
+rm -rf /var/radiohead/nirvana/muse/*
