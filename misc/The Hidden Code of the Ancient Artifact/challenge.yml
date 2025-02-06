@@ -18,10 +18,6 @@ attempts: 10
 flags:
   - FIA{Pharaohs_N3v3r_L34ve_S3cr3t5}
 
-files:
-  - dist/index.html
-  - dist/app.py
-
 tags:
   - code
   - easy
