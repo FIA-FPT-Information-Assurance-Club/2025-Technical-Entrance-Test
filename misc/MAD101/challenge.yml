@@ -1,0 +1,27 @@
+name: MAD101
+author: Jerryyy
+category: code
+description: |-
+  Nói anh nghe mấy đứa bao nhiêu điểm MAD nào 🐧
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 10
+  minimum: 50
+
+attempts: 10
+
+flags:
+  - FIA{https://open.spotify.com/track/6faDaesW1HUcRf7gKKHx7g?si=cac9bb0144cd4683}
+
+connection_info: nc ... 1337
+
+tags:
+  - misc
+  - ppc
+  - Easy
+
+version: '0.1'

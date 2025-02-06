@@ -3,24 +3,19 @@ author: Winnie_da_po
 category: code
 description: |-
   Are you capable of unlocking the Pharaoh's final secret, concealed within this ancient artifact?
-Access the challenge at: http://127.0.0.1:5000
   
 value: 200
 type: dynamic
 
 extra:
-  initial: 500
+  initial: 200
   decay: 10
   minimum: 50
 
 attempts: 10
 
 flags:
-  - FIA{Pharaohs_N3v3r_L34ve_S3cr3t5}
-
-files:
-  - dist/index.html
-  - dist/app.py
+  - FIA{Pharaos_N3ver_L3ve_S3cr3t5}
 
 tags:
   - code
