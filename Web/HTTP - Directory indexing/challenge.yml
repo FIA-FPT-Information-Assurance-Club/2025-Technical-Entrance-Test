@@ -7,6 +7,17 @@ category: Web
 description: 
 - Looks like you found a restricted area! But... is this really what you're looking for? ;)
 
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 100
+  minimum: 100
+protocol: http
+host: null
+attempts: 30
+
 flags:
 - FIA{D1rect0ry_L1sting_3xp0sed}
 
