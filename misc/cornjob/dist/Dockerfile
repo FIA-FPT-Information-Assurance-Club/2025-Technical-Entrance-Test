@@ -30,8 +30,8 @@ RUN mkdir -p /var/radiohead/nirvana/muse/ && \
 RUN chmod 444 /home/shiba/p@rt1.txt && \
     chmod 444 /etc/s/e/c/s3cond_101.txt && \
     chown root:root /home/shiba/p@rt1.txt /etc/s/e/c/s3cond_101.txt && \
-    chown root:eagle /home/eagle && \
-    chmod -R 440 /home/eagle
+    chown -R root:eagle /home/eagle && \
+    chmod -R 440 /home/eagle/
 
 RUN find / -type d -not -path "/tmp" -exec setfacl -m u:shiba:r-x {} + 2>/dev/null || true && \
     setfacl -m u:shiba:rwx /var/radiohead/nirvana/muse && \
