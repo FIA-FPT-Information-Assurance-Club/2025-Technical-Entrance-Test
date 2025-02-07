@@ -15,7 +15,7 @@ extra:
 attempts: 10
 
 flags:
-  - FIA{Pharaos_N3ver_L3ve_S3cr3t5}
+  - FIA{Pharaohs_N3v3r_L34ve_S3cr3t5}
 
 tags:
   - code
