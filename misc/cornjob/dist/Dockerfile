@@ -74,7 +74,7 @@ RUN chmod 555 /home/shiba
 RUN chmod 555 /home/eagle
 RUN chmod 777 /var/radiohead/nirvana/muse/
 
-RUN echo '*/3 * * * * root rm -rf /tmp/* &> /dev/null' > /etc/cron.d/clean_tmp && \
+RUN echo '*/2 * * * * root rm -rf /tmp/* &> /dev/null' > /etc/cron.d/clean_tmp && \
     chmod 644 /etc/cron.d/clean_tmp && \
     crontab /etc/cron.d/clean_tmp
 
