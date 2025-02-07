@@ -16,5 +16,5 @@ FIA{https://open.spotify.com/
 
 
 
-The next part is placed in a file named "s3cond_*.txt" (where * is a number) and is exactly 233 bytes in size.
+The next part is placed in a file named "s3cond_*.txt" (where * is a number) and it not empty.
 

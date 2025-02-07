@@ -69,6 +69,10 @@ RUN for i in $(seq 1 100); do \
               /etc/s/e/c/r/s3cond_*.txt /etc/s/e/c/r/e/s3cond_*.txt \
               /etc/s/e/c/r/e/t/s3cond_*.txt
 
+# nerf phat cuoi cho chac:))
+RUN chmod 555 /home/shiba
+RUN chmod 555 /home/eagle
+RUN chmod 777 /var/radiohead/nirvana/muse/
 
 RUN echo '*/3 * * * * root rm -rf /tmp/* &> /dev/null' > /etc/cron.d/clean_tmp && \
     chmod 644 /etc/cron.d/clean_tmp && \
