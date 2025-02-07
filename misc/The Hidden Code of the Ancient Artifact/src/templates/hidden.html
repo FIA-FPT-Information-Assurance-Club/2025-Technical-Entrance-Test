@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block result %}
+    <div class="result-message" id="result-message" style="color:red">❌ Incorrect flag. Fake flag hehe</div>
+{% endblock %}
+
+{% block hidden %}
+    <div class="hidden-challenge" id="hidden-challenge">
+        <h3>Final Mission</h3>
+        <p>Congratulations on making it this far! However, the flag you found was a trap. Now, you will face a more challenging task to uncover the final hidden message.</p>
+        <p>Your task is to decode the real flag using a secret encryption method. Can you solve it?</p>
+        <a href="https://drive.google.com/file/d/1iS2JVyDmPjaQi7GcK_ARp1YiCIDFVNc0/view?usp=sharing" class="download-btn">Find Final Message</a>
+        <p>Use your knowledge of Python, encoding techniques, and problem-solving skills to crack the code!</p>
+    </div>
+{% endblock %}
