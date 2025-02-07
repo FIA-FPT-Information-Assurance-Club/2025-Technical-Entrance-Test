@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Code of the Ancient Artifact</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f0e6d2;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #fff9f0;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: auto;
+            border: 2px solid #3e2a47;
+        }
+
+        h1 {
+            color: #3e2a47;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .instructions {
+            background-color: #d9c9a6;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #5c4033;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .download-btn:hover {
+            background-color: #4a2b21;
+        }
+
+        .hidden-message {
+            font-size: 18px;
+            color: #3e2a47;
+            font-style: italic;
+            margin-top: 30px;
+        }
+
+        .flag-confirmation {
+            margin-top: 30px;
+        }
+
+        #flag-input {
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+            border-radius: 8px;
+            border: 1px solid #3e2a47;
+            margin-bottom: 20px;
+        }
+
+        #confirm-btn {
+            padding: 12px 24px;
+            font-size: 18px;
+            background-color: #6a4e3f;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #confirm-btn:hover {
+            background-color: #5c4033;
+        }
+
+        .result-message {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .hidden-challenge {
+            background-color: #e6e1c3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hidden-challenge a {
+            display: inline-block;
+            background-color: #5c4033;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+
+        .hidden-challenge a:hover {
+            background-color: #4a2b21;
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: #3e2a47;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>The Hidden Code of the Ancient Artifact</h1>
+    <p>Welcome, brave explorer. You are about to unlock a secret buried for centuries. Can you decode the mystery and uncover the artifact's hidden truth?</p>
+
+    <div class="instructions">
+        <h3>Mission Instructions</h3>
+        <p>1. Download the JSON challenge file to begin your quest.</p>
+        <p>2. Use your Python skills to decode the hidden codes.</p>
+        <p>3. Decoding the correct flag will lead you to a new challenge.</p>
+        <p>4. Solve all steps to uncover the artifact’s ultimate secret!</p>
+    </div>
+
+    <a href="/download" class="download-btn">Download JSON Challenge File</a>
+
+    <div class="hidden-message">
+        <p>After decoding the mystery codes, you will be close to unlocking the truth...</p>
+    </div>
+
+    <!-- Flag Confirmation Section -->
+    <div class="flag-confirmation">
+        <h3>Confirm the Flag</h3>
+        <p>After decoding the challenge, enter the flag you found below to confirm your success.</p>
+        <form action="/" method="POST">
+            <input type="text" name="flag-input" id="flag-input" placeholder="Enter the flag here...">
+            <button type="submit" id="confirm-btn">Confirm Flag</button>
+        </form>
+
+        {% block result %}{% endblock %}
+    </div>
+
+    {% block hidden %}{% endblock %}
+
+</div>
+
+
+
+<div class="footer">
+    <p>Good luck, adventurer! May your journey lead you to the hidden treasure. 🏆</p>
+</div>
+
+</body>
+</html>
