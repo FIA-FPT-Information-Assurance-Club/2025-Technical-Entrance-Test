@@ -3,7 +3,7 @@ Repo đề thi tuyển thành viên Ban Kỹ thuật 2025
 
 
 <h2>Write-up</h2>
-<p>Writeup của các tân thành viên của Ban Kỹ thuật (cập nhật lúc 19:02 15/2/2025)</p>
+<p>Writeup của các tân thành viên của Ban Kỹ thuật (cập nhật lúc 20:15 15/2/2025)</p>
 
 <h3>Top 3 FIA Tech Test 2025</h3>
 <p>Top 1: SE192097: Trần Lê Minh Thư | Writeup: https://github.com/tlmt009147/2025-Tech-Test</p>
@@ -13,3 +13,4 @@ Repo đề thi tuyển thành viên Ban Kỹ thuật 2025
 <p>SE181665: Nguyễn Viết Phong | Writeup: https://github.com/Vietphongg/WriteUp_CTF</p>
 <p>SE190739: Phan Quỳnh Mai | Writeup: https://docs.google.com/document/d/16ptFhrgiBbG7lir4_AAPHU0Sxnmvh67V9qtDksoVclE/edit?usp=sharing</p>
 <p>SE193732: Nguyễn Hải Vũ | Writeup: https://github.com/realOSAKER/FIA-SP25-Writeup</p>
+<p>SE193884: Trần Thành Gia Nghĩa | Writeup: https://docs.google.com/document/d/13ypKWu7UjynnvdLhLl_AmUcAeLnTRBnZ1zSnfXqcRHg/edit?usp=sharing</p>
