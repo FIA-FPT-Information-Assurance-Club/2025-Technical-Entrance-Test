@@ -11,3 +11,4 @@ Repo đề thi tuyển thành viên Ban Kỹ thuật 2025
 <p>Top 3: SE191117: Trương Tuấn Minh | Writeup: https://github.com/BaoBao-101/7u4n-M1nh/tree/main/FIA/FIA%20TECH%20TEST</p>
 <h3>Các thành viên còn lại</h3>
 <p>SE181665: Nguyễn Viết Phong | Writeup: https://github.com/Vietphongg/WriteUp_CTF</p>
+<p>SE190739: Phan Quỳnh Mai | Writeup: https://docs.google.com/document/d/16ptFhrgiBbG7lir4_AAPHU0Sxnmvh67V9qtDksoVclE/edit?usp=sharing</p>

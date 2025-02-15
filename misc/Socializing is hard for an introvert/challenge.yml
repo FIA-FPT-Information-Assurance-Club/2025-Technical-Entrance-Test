@@ -1,0 +1,26 @@
+name: Socializing is hard for an introvert
+author: shirayamahikari
+category: misc
+description: |-
+  I want to be a part of the team, but my social skills is bad. Can you take a look at my social accounts and help me redesign it?
+  
+  My social media is in my Discord profile associated with my name, so it couldn't be hard to find.
+
+  Author: shirayamahikari
+value: 300
+type: dynamic
+
+extra:
+  initial: 300
+  decay: 75
+  minimum: 100
+
+attempts: 10
+
+flags:
+- FIA{50C141_M3D14_15_FUN_4r3ec5}
+
+tags:
+- Easy
+
+version: '0.1'

@@ -1,0 +1,41 @@
+name: Don't forget me
+author: shirayamahikari
+category: misc
+description: |-
+  > Vậy nên, Tay trong Tay, Dòng cảm xúc mãnh liệt ấy
+
+  > Sẽ ôm chặt bờ vai của một ai kia.
+
+  > Tay trong Tay, Nhất định không bao giờ quên nha
+
+  > Luôn luôn     Mãi mãi
+
+  > Đến Tận Cùng「Tương Lai」
+
+  (*lời bài hát đã được dịch sang Tiếng Việt*)
+
+  (*khóc*) Cũng lâu rồi mới được nghe lại những lời bài hát này, mà tính ra cũng gần 10 năm rồi đó, đúng là thời gian trôi qua nhanh thiệt.
+  Mà vấn đề ở đây là, đó là bài hát gì? do ai sáng tác? do ai trình bày? bản gốc được đăng vào khi nào?
+
+  Đảm bảo flag của bạn có format như sau:
+  FIA{tên_bài_hát-người_sáng_tác-người_trình_bày-ngày/tháng/năm_đăng_tải}
+
+  Example: FIA{Tetoris-Hiiragi_Magnetite-Kasane_Teto-08/11/2024}
+value: 300
+type: dynamic
+
+extra:
+  initial: 300
+  decay: 75
+  minimum: 100
+
+attempts: 10
+
+flags:
+- FIA{Hand_in_Hand-kz-Hatsune_Miku-07/07/2015}
+
+tags:
+- Easy
+
+attribute: Bản dịch lời bởi Athena SubGroup
+version: '0.1'
